@@ -1,0 +1,13 @@
+{
+  "name": "livewiring-light-touch",
+  "version": "1.0.0",
+  "author": "Nick Evans <nick.evans@northwestern.edu>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  },
+  "scripts": {
+    "pdf": "marp --allow-local-files livewiring-with-a-ligh-touch.md --pdf-notes -o livewiring-with-a-ligh-touch.pdf",
+    "pptx": "marp --allow-local-files livewiring-with-a-ligh-touch.md -o livewiring-with-a-ligh-touch.pptx"
+  }
+}
